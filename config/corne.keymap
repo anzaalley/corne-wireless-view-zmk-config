@@ -143,10 +143,10 @@
 
             label = "Lower";
             bindings = <
-&kp COLON  &kp EXCL      &kp N7  &kp N8   &kp N9  &kp HASH     &kp CARET  &kp AMPS   &kp ASTRK      &kp LPAR       &kp RPAR        &kp BSLH
-&kp SLASH  &mt LGUI AT   &kp N4  &kp N5   &kp N6  &kp DLLR     &kp GRAVE  &kp MINUS  &kp EQUAL      &kp LBKT       &kp RBKT        &kp PIPE
-&trans     &mt LCTRL N0  &kp N1  &kp N2   &kp N3  &kp PRCNT    &kp TILDE  &kp UNDER  &mt RGUI PLUS  &mt RALT LBRC  &mt RCTRL RBRC  &kp BACKSPACE
-                                 &kp DOT  &to 0   &kp SPACE    &kp RET    &trans     &kp RALT
+&kp COLON  &kp EXCL      &kp N7  &kp N8   &kp N9  &kp HASH     &kp CARET  &kp AMPS         &kp ASTRK      &kp LPAR       &kp RPAR        &kp BSLH
+&kp SLASH  &mt LGUI AT   &kp N4  &kp N5   &kp N6  &kp DLLR     &kp GRAVE  &kp MINUS        &kp EQUAL      &kp LBKT       &kp RBKT        &kp PIPE
+&trans     &mt LCTRL N0  &kp N1  &kp N2   &kp N3  &kp PRCNT    &kp TILDE  &mt RSHFT UNDER  &mt RGUI PLUS  &mt RALT LBRC  &mt RCTRL RBRC  &kp BACKSPACE
+                                 &kp DOT  &to 0   &kp SPACE    &kp RET    &trans           &kp RALT
             >;
         };
 
