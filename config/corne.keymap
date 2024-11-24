@@ -119,6 +119,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
+            // yeah i didn't bother to fix the comment keymap
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
             // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -129,7 +130,7 @@
             bindings = <
 &kp ESC        &kp Q        &kp W       &kp F               &kp P        &kp B          &kp K    &kp L            &kp U           &kp Y         &kp SEMI         &kp EXCL
 &mt LSHFT TAB  &kp A        &kp R       &kp S               &kp T        &kp G          &kp M    &kp N            &kp E           &kp I         &kp O            &kp SQT
-&kp DEL        &mt LCTRL Z  &mt LALT X  &mt LGUI C          &mt LSHFT D  &kp V          &kp J    &mt RSHFT H      &mt RGUI COMMA  &mt RALT DOT  &mt RCTRL SLASH  &kt RSHFT
+&mt LSHFT DEL  &mt LCTRL Z  &mt LALT X  &mt LGUI C          &mt LSHFT D  &kp V          &kp J    &mt RSHFT H      &mt RGUI COMMA  &mt RALT DOT  &mt RCTRL SLASH  &kp RSHFT
                                         &th LGUI LG(SPACE)  &mo 1        &lt 2 SPACE    &kp RET  &lt 1 BACKSPACE  &taptog 2 2
             >;
         };
